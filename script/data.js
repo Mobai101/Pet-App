@@ -1,5 +1,15 @@
 "use strict";
 
+//#region Sidebar
+const sidebarBtn = document.querySelector("#sidebar-title");
+const sidebarElement = document.querySelector("#sidebar");
+
+// Sidebar Animation
+sidebarBtn.addEventListener("click", function () {
+  sidebarElement.classList.toggle("active");
+});
+//#endregion
+
 //#region Selection
 const fileInput = document.querySelector("#input-file");
 const importBtn = document.querySelector("#import-btn");
