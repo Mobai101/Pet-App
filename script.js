@@ -32,18 +32,6 @@ sidebarBtn.addEventListener("click", function () {
   sidebarElement.classList.toggle("active");
 });
 
-/* FUNiX code produce 'Unexpected end of JSON input' error => unsuable
-// Save to Storage
-function saveToStorage(key, value) {
-  localStorage.setItem(key, value);
-}
-
-// Get from storage
-function getFromStorage(key, defa) {
-  return localStorage.getItem(key) ?? defa;
-}
-*/
-
 // Function to validate data input by user
 function validateData(data) {
   if (!idInput.value) {
